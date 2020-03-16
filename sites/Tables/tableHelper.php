@@ -49,7 +49,7 @@ include_once("../Includes/header.php");
                         <tbody>
                         <?php
 
-                        $resp = $mysqli->query("SELECT p.vorname, p.nachname, p.plz, p.stadt, p.email, h.beschreibung, p.id FROM Helfer h INNER JOIN Person p ON h.pid = p.id");
+                        $resp = $mysqli->query("SELECT p.vorname, p.nachname, p.plz, p.stadt, p.email, h.beschreibung, p.id FROM Helfer h INNER JOIN Person p ON h.pid = p.id ORDER BY p.plz ASC");
 
                         if($resp->num_rows == 0) {
                             echo "<tr><td>Aktuell sucht niemand nach Hilfe!</td></tr>";
