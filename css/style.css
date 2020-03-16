@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.headTitle {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+
+.headSubTitle {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 36px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+}
+
+div#headbox {
+    margin-top: 20px;
+    text-align: center;
+}
+
+div.site-container {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+div.buttongroup {
+    text-align: center;
+}
+
+.button1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 270px;
+}
+
+.button1:hover {
+    background-color: #58c85b;
+}
+
+a:link { color: #4CAF50; text-decoration: none}
+a:visited { color: #4CAF50; text-decoration: none}
+a:hover { color: #58c85b; text-decoration: underline}
+a:active { color: #4CAF50; text-decoration: none}
+
+a.headerlink {
+    color: black;
+}
+
+a.headerlink:hover {
+    color: #7a7a7a;
+    text-decoration: none;
+}
+
+.button2 {
+    background-color: #005eaf;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 270px;
+}
+
+.button2:hover {
+    background-color: #0067c2;
+}
+
+.button3 {
+    background-color: #af0003;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 270px;
+}
+
+.button3:hover {
+    background-color: #c20600;
+}
+
+div.subButtongroup {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .button1 {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 270px;
+    }
+
+    .button1:hover {
+        background-color: #58c85b;
+    }
+
+    div.site-container {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
