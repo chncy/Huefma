@@ -1,15 +1,15 @@
 <?php
-include_once("site/loaddata.php");
+include_once("../Includes/loaddata.php");
 ?>
 <html>
 <header>
     <?php
-    include_once("site/headdata.php");
+    include_once("../Includes/headdata.php");
     ?>
 </header>
 <body>
 <?php
-include_once("site/header.php");
+include_once("../Includes/header.php");
 ?>
 <div class="site-container">
     <?php

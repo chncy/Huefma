@@ -1,23 +1,26 @@
 <?php
-include_once("site/loaddata.php");
+/*
+ * Form to contact helpers or people seeking help.
+*/
+include_once("../Includes/loaddata.php");
 ?>
 <html>
 <header>
     <?php
-    include_once("site/headdata.php");
+    include_once("../Includes/headdata.php");
     ?>
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="../../css/contact.css">
 </header>
 <body>
 <?php
-include_once("site/header.php");
+include_once("../Includes/header.php");
 ?>
 <div class="site-container">
     <div class="container">
-        <form id="contact" action="formsend.php" method="post">
+        <form id="contact" action="../Functions/sendMail.php" method="post">
             <?php
             session_start();
-            $_SESSION['key'] = $MailKey;
+            $_SESSION['key'] = $CONST_KEY;
             $_SESSION['pid'] = $_GET['pid'];
             $_SESSION['hilfe'] = $_GET['hilfe'];
             if($_GET['hilfe'] == 1) {

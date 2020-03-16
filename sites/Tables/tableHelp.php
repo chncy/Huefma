@@ -1,29 +1,32 @@
 <?php
-include_once("site/loaddata.php");
+/*
+ * Table showing all those who need help.
+*/
+include_once("../Includes/loaddata.php");
 ?>
 <html>
 <header>
     <?php
-    include_once("site/headdata.php");
+    include_once("../Includes/headdata.php");
     ?>
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="js/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/js/bootstrap/css/bootstrap.min.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="js/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="/js/animate/animate.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="js/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="/js/select2/select2.min.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="js/perfect-scrollbar/perfect-scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="/js/perfect-scrollbar/perfect-scrollbar.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="css/util.css">
-    <link rel="stylesheet" type="text/css" href="css/table.css">
+    <link rel="stylesheet" type="text/css" href="/css/util.css">
+    <link rel="stylesheet" type="text/css" href="/css/table.css">
     <!--===============================================================================================-->
 </header>
 <body>
 <?php
-include_once("site/header.php");
+include_once("../Includes/header.php");
 ?>
 <div class="site-container">
     <br>
@@ -71,14 +74,14 @@ include_once("site/header.php");
 </div>
 
 <!--===============================================================================================-->
-<script src="js/jquery/jquery-3.2.1.min.js"></script>
+<script src="/js/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
-<script src="js/bootstrap/js/popper.js"></script>
-<script src="js/bootstrap/js/bootstrap.min.js"></script>
+<script src="/js/bootstrap/js/popper.js"></script>
+<script src="/js/bootstrap/js/bootstrap.min.js"></script>
 <!--===============================================================================================-->
-<script src="js/select2/select2.min.js"></script>
+<script src="/js/select2/select2.min.js"></script>
 <!--===============================================================================================-->
-<script src="js/main.js"></script>
+<script src="/js/main.js"></script>
 
 </body>
 </html>

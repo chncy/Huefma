@@ -1,9 +1,15 @@
 <?php
+/*
+Loads all important data at the beginning of each page.
+*/
+
 $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
 $domainName = $_SERVER['HTTP_HOST'].$_SERVER[REQUEST_URI];
 $acturl = $protocol.$domainName;
 $domain = "https://www.hüfma.at";
 header('Content-Type: text/html; charset=UTF-8');
+
+$CONST_KEY = "";
 
 $date = date("d.m.Y H:i:s");
 
@@ -11,8 +17,6 @@ $_db_host = "";
 $_db_datenbank = "";
 $_db_username = "";
 $_db_passwort = "";
-
-$MailKey = "asdrdg2344234d34sasd";
 
 $mysqli = new mysqli($_db_host, $_db_username, $_db_passwort, $_db_datenbank);
 

@@ -1,15 +1,15 @@
 <?php
-include_once("site/loaddata.php");
+include_once("sites/Includes/loaddata.php");
 ?>
 <html>
 <header>
     <?php
-    include_once("site/headdata.php");
+    include_once("sites/Includes/headdata.php");
     ?>
 </header>
 <body>
 <?php
-include_once("site/header.php");
+include_once("sites/Includes/header.php");
 ?>
 <div class="site-container">
     <?php
@@ -26,24 +26,24 @@ include_once("site/header.php");
     <div class="buttongroup">
         <div class="subButtongroup">
             <h2>Für Hilfesuchende:</h2>
-            <a href="formHilfe.php"><button class="button1">Ich benötige Hilfe</button></a>
+            <a href="sites/Forms/formHelp.php"><button class="button1">Ich benötige Hilfe</button></a>
             <br><br>
-            <a href="listHelfer.php"><button class="button1">Zur Liste der Helfer</button></a>
+            <a href="sites/Tables/tableHelper.php"><button class="button1">Zur Liste der Helfer</button></a>
         </div>
         <div class="subButtongroup">
             <h2>Für Helfer:</h2>
-            <a href="formHelfer.php"><button class="button2">Als Helfer eintragen</button></a>
+            <a href="sites/Forms/formHelper.php"><button class="button2">Als Helfer eintragen</button></a>
             <br><br>
-            <a href="listHilfe.php"><button class="button2">Zur Liste der Hilfesuchenden</button></a>
+            <a href="sites/Tables/tableHelp.php"><button class="button2">Zur Liste der Hilfesuchenden</button></a>
         </div>
         <div class="subButtongroup">
             <h2>Allgemein:</h2>
-            <a href="delete.php"><button class="button3">Meine Daten löschen</button></a>
+            <a href="sites/Forms/formUnsubscribe.php"><button class="button3">Meine Daten löschen</button></a>
         </div>
     </div>
 </div>
 <?php
-include_once("site/footer.php");
+include_once("sites/Includes/footer.php");
 ?>
 </body>
 </html>

@@ -1,5 +1,8 @@
 <?php
-include_once("site/loaddata.php");
+/*
+Form to register as a helper.
+*/
+include_once("../Includes/loaddata.php");
 
 $succes = 0;
 if($_POST["send"]) {
@@ -26,20 +29,20 @@ if($_POST["send"]) {
 <html>
 <header>
     <?php
-    include_once("site/headdata.php");
+    include_once("../Includes/headdata.php");
     ?>
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="../../css/contact.css">
 </header>
 <body>
 <?php
-include_once("site/header.php");
+include_once("../Includes/header.php");
 ?>
 <div class="site-container">
     <?php
     if($succes == 0) {
         ?>
         <div class="container">
-            <form id="contact" action="formHelfer.php" method="post">
+            <form id="contact" action="formHelper.php" method="post">
                 <h3>Ich möchte Helfen</h3>
                 <p style="line-height: normal; margin-bottom: 10px;">Hiermit können Sie sich als Helfer in eine Liste
                     eintragen und bekommen via E-Mail bescheid, falls jemand Ihre Hilfe benötigt.
