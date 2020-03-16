@@ -1,7 +1,7 @@
 # German
 
 ## Huefma
-Hüfma ist eine Plattform bei denen Helfende und Hilfe Suchende sich eintragen können.
+Hüfma (Österreichisch für "Hilf mir") ist eine Plattform bei denen Helfende und Hilfe Suchende sich eintragen können.
 
 Die Seite ist unter http://hüfma.at erreichbar.
 Ab morgen dann auch unter https://hüfma.at
