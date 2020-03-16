@@ -30,7 +30,7 @@ include_once("sites/Includes/header.php");
                     <h2>Für Hilfesuchende:</h2>
                 </div>
                 <div class="group-content">
-                    <p class="zitat">Hier könnte IHR Zitat stehen</p>
+                    <p>Tragen Sie sich in der Liste ein oder suchen Sie direkt in der Liste.</p>
                 </div>
                 <div class="group-buttons">
                     <a href="sites/Forms/formHelp.php"><button class="button1">Ich benötige Hilfe</button></a>
@@ -43,7 +43,7 @@ include_once("sites/Includes/header.php");
                     <h2>Für Helfer:</h2>
                 </div>
                 <div class="group-content">
-                    <p class="zitat">"Man kann nicht allen helfen", sagt der Engherzige und hilft keinem</p>
+                    <p>Tragen Sie sich in der Liste ein oder suchen Sie direkt in der Liste.</p>
                 </div>
                 <div class="group-buttons">
                     <a href="sites/Forms/formHelper.php"><button class="button2">Als Helfer eintragen</button></a>
